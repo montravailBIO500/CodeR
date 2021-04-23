@@ -1,8 +1,5 @@
 ###CREATION DE LA BASE DE DONNEES###
 
-#Aller chercher le repertoir de travail
-setwd("C:/Users/Jordan/Documents/Université de Sherbrooke/Session 5 (H-21)/Méthodes en écologie computationnelle")
-
 #Lecture fichier csv equipe 1 (3LCW)
 LCW_collaborations1 <- read.csv(file = "3LCW_collaborations.csv", sep = ",", fileEncoding = "UTF-8-BOM")
 LCW_cours1 <- read.csv(file="3LCW_cours.csv", sep = ",", fileEncoding = "UTF-8-BOM")
